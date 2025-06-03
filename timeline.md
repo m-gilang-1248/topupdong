@@ -4,7 +4,9 @@ gantt
     title Rencana Iterasi MVP Aplikasi Pemesanan Lapangan Olahraga
     excludes    weekends
     %% `excludes` akan membuat durasi aktual lebih panjang jika dikerjakan hanya di hari kerja
-
+```
+```mermaid
+gantt
     section Pra-Iterasi (1 Minggu)
     Persiapan & Setup Awal            :done, p_prep, 2023-10-30, 7d
     %% Task Checklist Pra-Iterasi (Tandai [x] jika selesai)
@@ -13,7 +15,7 @@ gantt
     %% [x] Setup Project Appwrite (Lokal/Cloud)
     %% [x] Buat Struktur Project Flutter Awal
     %% [x] Integrasi Awal Flutter dengan Appwrite Client
-
+```
     section Iterasi 1: Fondasi Pengguna (2 Minggu)
     Otentikasi Dasar (F001)        :p_iter1, after p_prep, 14d
     %% Task Checklist Iterasi 1
